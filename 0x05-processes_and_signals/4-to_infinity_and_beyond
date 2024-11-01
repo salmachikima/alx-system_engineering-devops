@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#ilu To infinty and beyond
+
+while true; do 
+    echo "To infinity and beyond";
+    sleep 2
+done
