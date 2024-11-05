@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# bash scriot that displays The content of the current directoy in a list format
+# Where only the part of the name after the first dash is displayed (refer to the example)
+
+for s in *
+do
+    echo "$s" | cut -f 2 -d '-'
+done
