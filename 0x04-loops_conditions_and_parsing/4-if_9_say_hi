@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Print Best School x10 using the while loop
+# but for the 9th iteration display hi
+
+s=1
+while [ $s -le 10 ]
+do
+    echo "Best School"
+    if [ "$s" -eq 9 ]
+    then
+	echo "Hi"
+    fi
+
+    ((s++))
+done

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Print best school x10 using while loop
+
+s=1
+while [ $s -le 10 ]
+do
+  echo "Best School"
+  ((s++))
+done
